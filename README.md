@@ -20,4 +20,17 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 install express-
 
 npm install express --save
-copy these files and here we go
+
+install express-generator
+
+npm install express-generator
+
+express pcrepair
+
+copy these files to respective folders 
+
+command to run the file
+
+Type node app.js
+
+Open your browser and run the file @http://localhost:3000
