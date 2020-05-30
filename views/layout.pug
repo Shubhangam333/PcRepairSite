@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    //- link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css')
+  body
+    nav.navbar.navbar-fixed-top.navbar-inverse(role='navigation')
+      .container-fluid
+        .navbar-header
+          a.navbar-brand(href='#') PC Repair
+          button.navbar-toggle.collapsed(type='button', data-target='#navbarCollapse', data-toggle='collapse')
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        #navbarCollapse.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li(class=title=='Home'?'active':undefined)
+              a(href='/') Home
+            li(class=title=='About'?'active':undefined)
+              a(href='/about') About
+            li(class=title=='Services'?'active':undefined)
+              a(href='/services') Services
+            li(class=title=='Contact'?'active':undefined)
+              a(href='/contact') Contact
+      .container
+    block content
+
+    hr
+    footer
+      p PC Repair &copy:2020

@@ -1,0 +1,22 @@
+[
+    {
+      "name":"Hardware Repair",
+      "description":"Praesent finibus nunc vitae porttitor varius. In accumsan aliquam urna, non aliquet libero rhoncus at. In pharetra erat nec ultricies porta",
+      "price_range":"$100-$200"
+    },
+    {
+        "name":"Virus Removal",
+        "description":"Praesent finibus nunc vitae porttitor varius. In accumsan aliquam urna, non aliquet libero rhoncus at. In pharetra erat nec ultricies porta",
+        "price_range":"$100-$150"
+     },
+     {
+        "name":"PC Tune Up",
+        "description":"Praesent finibus nunc vitae porttitor varius. In accumsan aliquam urna, non aliquet libero rhoncus at. In pharetra erat nec ultricies porta",
+        "price_range":"$75-$100"
+      },
+      {
+        "name":"Network Services",
+        "description":"Praesent finibus nunc vitae porttitor varius. In accumsan aliquam urna, non aliquet libero rhoncus at. In pharetra erat nec ultricies porta",
+        "price_range":"$500-$1000"
+      }
+]
