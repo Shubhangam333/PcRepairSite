@@ -13,13 +13,13 @@ router.post('/send', function(req, res, next){
     var transporter = nodemailer.createTransport({
       service: 'Gmail',
       auth: {
-        user: 'shubhangam27@gmail.com',
-        pass: '9997894121ssdnarna'
+        user: 'email',
+        pass: 'password'
       }
     });
 
     var mailOptions = {
-      from: '"YOURNAME" <shubhangam27@gmail.com>',
+      from: '"YOURNAME" <>',
       to: 'TOEMAIL',
       subject: 'Hello from PCRepair',
       text: 'You have a submission from... Name: '+req.body.name+' Email: '+req.body.email+' Message: '+req.body.message,
